@@ -1,0 +1,488 @@
+@font-face{
+  font-family: dance;
+  src: url("../font/DancingScript-Regular.ttf");
+}
+
+@font-face{
+  font-family: sans;
+  src: url("../font/OpenSans-Light.ttf");
+}
+
+body, html{
+  margin: 0;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+*, *:before, *:after{
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+::selection{
+  background-color:#cfb3b0;
+  color: #ffffff;
+}
+
+::-moz-selection{
+  background-color:#cfb3b0;
+  color: #ffffff;
+}
+
+#DIV{
+  width: 100%;
+  height: auto;
+  /* border: 2px solid black; */
+}
+
+#BLOCK1{
+  margin-top: 5%;
+  box-sizing: border-box;
+  width: 100%;
+  /* border: 1px solid rgb(165, 11, 11); */
+}
+
+.BOX1{
+  background-color: #e3e4df;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.RUBY{
+  color: #cfb3b0;
+  font-size: 5vw;
+  margin-top: 70px;
+  display: inline-block;
+  font-family: sans;
+}
+
+
+.CPM{
+  color: #bcbebd;
+  font-size: 3vw;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  position: static;
+  font-family: dance;
+}
+
+.vl {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 5vh;
+  margin-left: 50%;
+  margin-top: -15px;
+}
+
+.BOX2{
+  -ms-display:flex;
+  -ms-justify-content: space-between;
+  background-color: #ffffff;
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image{
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.icon{
+  width: 25%;
+  height: auto;
+}
+
+.text{
+  font-size: 2vw;
+  margin-bottom: 30%;
+}
+
+.icons1{
+  width: 20%;
+  height: auto;
+  /* border: 1px solid rgb(255, 230, 0); */
+  text-align: center;
+  align-self: center;
+  margin-top: 1%;
+}
+
+.icons2{
+  width: 20%;
+  height: auto;
+  /* border: 1px solid rgb(251, 255, 0); */
+  text-align: center;
+  align-self: center;
+  margin-top: 1%;
+}
+
+
+#BLOCK2{
+  box-sizing: border-box;
+  /* border: 1px solid rgb(0, 255, 98); */
+  background-color: #e3e3e1;
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
+  margin-top: 5%;
+  text-align: center;
+  align-self: center;
+  float: right;
+  display: flexbox;
+}
+
+.BOX3{
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  /* border: 1px solid rgb(0, 255, 98); */
+  color: #cfb3b0;
+  font-size: 3vw;
+  display: inline-block;
+  font-family: sans;
+}
+
+.BOX4{
+  width: 33%;
+  height: auto;
+  /* border: 1px solid rgb(122, 85, 24); */
+  display: inline-block;
+
+}
+
+.year-text{
+  color: #cfb3b0;
+  font-size: 2vw;
+}
+.diplome-text{
+  color: #000000;
+  font-size: 2vw;
+  font-family: sans;
+}
+.school-text{
+  color: #000000;
+  font-size: 2vw;
+  font-family: dance;
+}
+
+.BOX5{
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  /* border: 1px solid rgb(0, 255, 98); */
+  color: #cfb3b0;
+  font-size: 3vw;
+  display: inline-block;
+  font-family: sans;
+  text-align: center;
+  align-self: center;
+}
+
+.BOX6{
+  height: auto;
+  /* border: 1px solid rgb(0, 255, 98); */
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+}
+
+.FIRST-BOX{
+  margin-top: 10%;
+  width: 35%;
+  height: auto;
+  /* border: 1px solid rgb(0, 255, 98); */
+  color: #000000;
+  display: inline;
+  /* display: flex; */
+  font-family: sans;
+  text-align: right;
+  align-self: center;
+  margin-left: 10%;
+  float: left;
+  font-size: 1.2vw;
+}
+
+.SECOUND-BOX{
+  margin-top: 10%;
+  width: 35%;
+  height: auto;
+  /* border: 1px solid rgb(0, 255, 98); */
+  border-left: 30px solid #d1aca3;
+  color: #cfb3b0;
+  display: inline;
+  font-family: sans;
+  text-align: left;
+  align-self: center;
+  /* margin-left: 10%; */
+  margin-right: 10%;
+  float: right;
+  padding-left: 3vw;
+}
+
+.c-box{
+  /* border: 1px solid rgb(15, 32, 185); */
+  width: 100%;
+  height: auto;
+  padding-bottom: 30%;
+  /* margin: auto; */
+}
+
+
+
+.FIRST-BOX2{
+  /* margin-top: 5%; */
+  width: 35%;
+  height: auto;
+  /* border: 1px solid rgb(0, 255, 98); */
+  border-right: 30px solid #c1b4a3;
+  color: #cfb3b0;
+  display: inline;
+  font-family: sans;
+  text-align:right;
+  align-self: center;
+  /* margin-left: 10%; */
+  margin-left: 10%;
+  float: left;
+  padding-right: 3vw;
+}
+
+.SECOUND-BOX2{
+  /* margin-top: 5%; */
+  width: 35%;
+  height: auto;
+  /* border: 1px solid rgb(177, 43, 19); */
+  color: #000000;
+  display: inline;
+  /* display: flex; */
+  font-family: sans;
+  text-align: left;
+  align-self: center;
+  margin-right: 10%;
+  float: right;
+  font-size: 1.2vw;
+}
+
+.c-box2{
+  /* border: 1px solid rgb(15, 32, 185); */
+  width: 100%;
+  height: auto;
+  padding-bottom: 20%;
+}
+
+.FIRST-BOX3{
+  /* margin-top: 5%; */
+  width: 35%;
+  height: auto;
+  /* border: 1px solid rgb(0, 255, 98); */
+  color: #000000;
+  display: inline;
+  /* display: flex; */
+  font-family: sans;
+  text-align: right;
+  align-self: center;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  float: left;
+  font-size: 1.2vw;
+}
+
+.SECOUND-BOX3{
+  /* margin-top: 5%; */
+  width: 35%;
+  height: auto;
+  /* border: 1px solid rgb(0, 255, 98); */
+  border-left: 30px solid #9a9ba0;
+  color: #cfb3b0;
+  display: inline;
+  font-family: sans;
+  text-align: left;
+  align-self: center;
+  /* margin-left: 10%; */
+  margin-right: 10%;
+  margin-bottom: 10%;
+  float: right;
+  padding-left: 3vw;
+}
+
+.c-box3{
+  /* border: 1px solid rgb(15, 32, 185); */
+  width: 100%;
+  height: auto;
+  padding-bottom: 20%;
+}
+
+.vl2{
+  border-left: 1px solid rgb(0, 0, 0);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+}
+
+.footer{
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: auto;
+  display: flex;
+  display: flexbox;
+  border-top: 1px solid black;
+  justify-content: center;
+}
+
+.footer-box{
+  margin-top: 2.5%;
+  /* border: 1px solid black; */
+  width: 33%;
+  text-align: center;
+  color: #000000;
+  float: left;
+  box-sizing: border-box;
+}
+
+.footer-text1{
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+.footer-text2{
+  font-size: 2vw;
+}
+
+/* section footer */
+#FOOTER{
+  background-color: #000000;
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+}
+
+.f-box{
+  /* border: 1px solid white; */
+  width: 10%;
+  height: auto;
+  /* padding-top: 2.5%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: white;
+}
+
+.f-logo{
+  width: 100%;
+  height: auto;  
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
+.f-text{
+  /* border: 1px solid black; */
+  border-bottom: 1px solid rgb(0, 0, 0);
+  color: white;
+  font-size: 3vw;
+  width: 80%;
+  height: auto;
+  margin-right: 5%;
+  margin-top: 1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Hind', sans-serif;
+}
+
+.f-typewriter{
+  color: #ffffff;
+}
+
+.f-icon{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: auto;
+  text-align :center;
+  margin-top: 1%;
+  font-size: 2vw;
+  color: white;
+}
+
+.f-icons{
+  width: 3.5%;
+  height: auto;
+  margin: 1%;
+}
+
+.github-icon{
+  border: 1px solid white;
+  background-color: white;
+}
+
+.f-icons:hover{
+  transform: translateY(-10px);
+}
+
+.license{
+  /* border: 1px solid black; */
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  text-align :center;
+  margin-top: 1%;
+  font-size: 1.5vw;
+}
+
+.project-license{
+  background-color: #cfb3b0;
+  color: white;
+}
+
+/* end section footer */
+
+/* for laptop and  bigger devices */
+@media screen and (min-width: 801px){}
+/* for tablet and smaller devices */
+@media screen and (max-width: 800px){}
+/* for phones and smaller devices */ 
+@media screen and (max-width: 428px){
+.year-text{
+  color: #cfb3b0;
+  font-size: 1.5vw;
+}
+.diplome-text{
+  color: #000000;
+  font-size: 1.5vw;
+  font-family: sans;
+}
+.school-text{
+  color: #000000;
+  font-size: 1.5vw;
+  font-family: dance;
+}
+
+.FIRST-BOX{
+  display: none;
+}
+
+.SECOUND-BOX2{
+  display:none;
+}
+
+.FIRST-BOX3{
+  display: none;
+}
+}
